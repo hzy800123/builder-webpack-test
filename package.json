@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "istanbul cover ./node_modules/.bin/_mocha",
+  "scripts": {    
+    "test": "npx nyc@latest mocha",
     "eslint": "eslint ./lib --fix"
   },
   "keywords": [],
